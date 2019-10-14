@@ -315,7 +315,7 @@ public class HttpSource extends Source {
                               SiddhiAppContext siddhiAppContext) {
 
         siddhiAppName = siddhiAppContext.getName();
-        String scheme = configReader.readConfig(HttpConstants.DEFAULT_SOURCE_SCHEME, HttpConstants
+        String scheme = configReader.readConfig(HttpConstants.DEFAULT_SOURCE_SCHEME, HttpConstants //sample
                 .DEFAULT_SOURCE_SCHEME_VALUE);
         //generate default URL
         String defaultURL;
